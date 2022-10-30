@@ -1,8 +1,41 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web&display=swap');
+* {    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: ;
+    font-family: 'Titillium Web', sans-serif;
+}
+p {
+    line-height: 150%;
+}
+.wrapper {
+    width: 1130px;
+    margin: 0 auto;
+}
+.header {
+    height: 85px;
+}
+.logotype {
+    margin-top: 29px;
+    float: left;
+
+}
+.first_nav {
+    float: right;
+    margin-top: 29px;
+
+}
+.first_nav ul {
+    list-style: none;
+    }
+.first_nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.first_nav a {
+    color: #666;
+    text-decoration: none;
 }
