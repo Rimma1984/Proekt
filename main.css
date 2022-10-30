@@ -39,3 +39,34 @@ p {
     color: #666;
     text-decoration: none;
 }
+/* Заголовки */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+h3 {
+    font-size: 24px;
+}
+.blok_1_left {
+    width: 50%;
+    float: left;
+    padding-top: 122px;
+}
+.blok_1_left p {
+margin-top: 43px;
+}
+.blok_1_right  {
+    width: 50%;
+    float: left;
+}
