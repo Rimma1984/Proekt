@@ -70,3 +70,26 @@ margin-top: 43px;
     width: 50%;
     float: left;
 }
+.blok2_left, .blok2_right {
+    width: 50%;
+    height: 590px;
+    float: left;
+    margin-top: 30px;
+    }
+.blok2_right {
+    padding-top: 132px;
+}
+.blok2_right p {
+    padding-top: 42px;
+}
+.blok3_left, .blok3_right {
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+}
+.blok3_left {
+    padding-top: 132px;
+}
+.blok3_left p {
+    padding-top: 42px;
+}
