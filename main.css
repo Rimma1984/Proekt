@@ -84,6 +84,7 @@ margin-top: 43px;
 }
 .blok3_left, .blok3_right {
     width: 50%;
+    height: 590px;
     float: left;
     margin-top: 30px;
 }
