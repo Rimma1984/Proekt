@@ -11,7 +11,7 @@ p {
     line-height: 150%;
 }
 .wrapper {
-    width: 1130px;
+    width: 1070px;
     margin: 0 auto;
 }
 .header {
@@ -25,6 +25,7 @@ p {
 .first_nav {
     float: right;
     margin-top: 29px;
+    font-weight: 600;
 
 }
 .first_nav ul {
@@ -93,4 +94,15 @@ margin-top: 43px;
 }
 .blok3_left p {
     padding-top: 42px;
+}
+.blok4_1, .blok4_2, .blok4_3 {
+    float: left;
+    width: 33,33%;
+}
+.bloktex {
+    width: 280px;
+    height: 218px;
+    background-color: #fff;
+    opacity: 80%;
+    margin-top: -30px;
 }
