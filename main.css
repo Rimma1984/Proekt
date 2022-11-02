@@ -11,7 +11,7 @@ p {
     line-height: 150%;
 }
 .wrapper {
-    width: 1070px;
+    width: 1125px;
     margin: 0 auto;
 }
 .header {
@@ -59,6 +59,7 @@ h2 {
 h3 {
     font-size: 24px;
 }
+
 .blok_1_left {
     width: 50%;
     float: left;
@@ -71,18 +72,31 @@ margin-top: 43px;
     width: 50%;
     float: left;
 }
+
 .blok2_left, .blok2_right {
     width: 50%;
     height: 590px;
     float: left;
     margin-top: 30px;
+    
     }
-.blok2_right {
+
+    .blok2_right {
     padding-top: 132px;
 }
 .blok2_right p {
     padding-top: 42px;
+    padding-left: 50px;
 }
+.blok2_right h1 {
+    padding-left: 50px;
+}
+.blok2_right a {
+    display: inline-block;
+    margin-top: 20px;  
+    margin-left: 50px;  
+}
+
 .blok3_left, .blok3_right {
     width: 50%;
     height: 590px;
@@ -94,15 +108,47 @@ margin-top: 43px;
 }
 .blok3_left p {
     padding-top: 42px;
+    padding-left: 0px;
 }
-.blok4_1, .blok4_2, .blok4_3 {
+
+.blok3_left a {
+    display: inline-block;
+    margin-top: 20px;
+}
+.text {
+    margin-bottom: 30px;
+}
+
+.blok4 {
     float: left;
-    width: 33,33%;
+    width: 300px;
+    margin-right: 100px;
+    position: static;
+}
+.blok4:last-of-type {
+    margin-right: 0;
 }
 .bloktex {
     width: 280px;
     height: 218px;
     background-color: #fff;
-    opacity: 80%;
-    margin-top: -30px;
+    opacity: 70%;
+    margin-top: -50px;
+    margin-left: 26px;
+    margin-bottom: 30px;
+}
+.bloktex h3, p {
+    padding: 10px 20px;
+}
+.bloktex p {
+    font-size: 15px;
+    line-height: 25px;
+}
+.seventh {
+    background-color: #979797;
+    /* margin-top: 150px; */
+    /* padding: 150px 0; */
+    }
+.learning, .forme {
+    width: 50%;
 }
