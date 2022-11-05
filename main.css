@@ -197,7 +197,7 @@ margin-top: 2px;
     padding-left: 80px;
 }
 .footer {
-    height: 285px;
+    height: 365px;
 }
 .col1, .col2, .col3, .col4 {
     width: 24%;
@@ -207,6 +207,8 @@ margin-top: 2px;
     a {
         text-decoration: none;
         color: #666;
+        line-height: 250%;
 }
+
 
     
