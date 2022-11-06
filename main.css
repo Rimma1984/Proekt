@@ -9,6 +9,7 @@ body {
 }
 p {
     line-height: 150%;
+    color: #4A4A4A
 }
 .wrapper {
     overflow: hidden;
@@ -36,6 +37,7 @@ p {
     display: inline-block;
     margin-left: 30px;
     margin-right: 30px;
+    
 }
 .first_nav a {
     color: #666;
@@ -45,6 +47,7 @@ p {
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    color: #4A4A4A;
 }
 
 h1 {
@@ -66,6 +69,7 @@ h4 {
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px;
+    color: #4A4A4A;
 } 
 /* 1 блок */
 .second {
@@ -169,7 +173,7 @@ margin-top: 43px;
     overflow: hidden;
     background-color: #eeeeee;
     margin-top: 60px;
-    /* padding: 50px 0; */
+    padding: 0px 0;
     height: 285ph;
 } 
 .learning {
@@ -179,9 +183,37 @@ margin-top: 43px;
 }
 .forme {
     float: right;
-    padding: 30px;
+    width: 50%;
+    /* padding: 50px 0; */
 }
-.learning h2 {
+input::placeholder {
+    color: #979797;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    }
+.forme input {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 8px;
+    padding-right: 167px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #979797;
+}
+.button {
+    background-color: rgba(29, 111, 243, 1);
+    padding: 0px 24px 5px 23px;
+    border-radius: 0px 5px 5px 0px;
+    width: 121px;
+    height: 32px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: -5px;
+    font-family: 'Titillium Web', sans-serif;
+    transition: background-color .2s;
+    display: inline-block;
+    text-decoration: none;
+}
+.learning h4 {
 margin-top: 2px;
 }
 .learning p {
@@ -190,6 +222,7 @@ margin-top: 2px;
     line-height: 30px;
     color: #4A4A4A;
     padding-left: 0;
+    line-height: 100%;
 }
 
 .forme {
